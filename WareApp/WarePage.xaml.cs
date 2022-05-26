@@ -65,7 +65,7 @@ namespace WareApp
         {
             if (Visibility == Visibility.Visible)
             {
-                WareBaseEntities.GetContext().ChangeTracker.Entries().ToList().ForEach(p => p.Reload());
+                WareBaseEntities.GetContext().ChangeTracker.Entries().ToList();
                 DGridWare.ItemsSource = WareBaseEntities.GetContext().Items.ToList();
             }
         }
