@@ -1,0 +1,20 @@
+﻿<Window x:Class="WareApp.LoginScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WareApp"
+        mc:Ignorable="d"
+        Title="LoginScreen" Height="350" Width="310" FontSize="14" Background="#23282C">
+    <Border Background="#444549" CornerRadius="20" Margin="20">
+        <StackPanel Margin="10,20,10,20">
+            <Label Content="Login" Foreground="White" FontSize="25" HorizontalAlignment="Center" FontWeight="Bold" ></Label>
+            <Separator></Separator>
+            <Label Content="Username" Foreground="White"></Label>
+            <TextBox x:Name="txtUsername" Background="#23282C" Foreground="White" FontSize="18" Width="218" HorizontalAlignment="Center"></TextBox>
+            <Label Content="Password" Foreground="White"></Label>
+            <PasswordBox x:Name="txtPassword" Background="#23282C" Foreground="White" FontSize="18" Width="220" Height="32"></PasswordBox>
+            <Button x:Name="btnSubmit" Click="btnSubmit_Click" Content="Войти" Background="#23282C" Foreground="White" FontSize="18" Width="140" Height="32" Margin="20" ></Button>
+        </StackPanel>
+    </Border>
+</Window>
