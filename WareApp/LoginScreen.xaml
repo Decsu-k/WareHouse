@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WareApp"
         mc:Ignorable="d"
-        Title="LoginScreen" Height="350" Width="310" FontSize="14" Background="#23282C">
+        Title="Авторизация" Height="350" Width="310" FontSize="14" Background="#23282C">
     <Border Background="#444549" CornerRadius="20" Margin="20">
         <StackPanel Margin="10,20,10,20">
             <Label Content="Login" Foreground="White" FontSize="25" HorizontalAlignment="Center" FontWeight="Bold" ></Label>
